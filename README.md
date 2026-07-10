@@ -1,7 +1,6 @@
-AI Literacy Certification V31
+V33
 
-GitHub Pages upload version.
+Certificate integration version.
 
-Note:
-The hero person is currently a placeholder block.
-Replace with licensed/generated image asset if desired.
+Upload all files together.
+To display the real PDF certificate, replace certificate.pdf with the final PDF file.
