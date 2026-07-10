@@ -1,32 +1,108 @@
 body{
+margin:0;
+font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
 background:#020617;
-color:white;
-font-family:sans-serif;
-text-align:center;
+color:#e2e8f0;
 }
 .hero{
-padding:80px 20px;
-background:linear-gradient(135deg,#06b6d4,#8b5cf6);
+min-height:720px;
+background:
+radial-gradient(circle at 70% 30%,#2563eb55,transparent 30%),
+linear-gradient(135deg,#020617,#0f172a);
+padding:30px 8%;
 }
-.panel{
-margin:30px auto;
-padding:30px;
-max-width:700px;
-background:#0f172a;
-border:1px solid #334155;
-border-radius:20px;
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+.logo{
+color:#22d3ee;
+border:1px solid #22d3ee;
+padding:12px 22px;
+border-radius:30px;
+}
+.links span{
+margin:15px;
+color:#cbd5e1;
+}
+.hero-content{
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:50px;
+margin-top:80px;
+}
+.copy{
+max-width:600px;
+}
+h1{
+font-size:clamp(45px,6vw,75px);
+line-height:1.15;
+}
+h1 span{
+color:#22d3ee;
+}
+p{
+font-size:20px;
+line-height:1.8;
+color:#cbd5e1;
 }
 button{
-padding:15px 25px;
+background:linear-gradient(90deg,#06b6d4,#8b5cf6);
+color:white;
 border:0;
+padding:16px 35px;
 border-radius:30px;
-background:#06b6d4;
-color:white;
-margin:10px;
+font-weight:bold;
 }
-textarea{
-width:80%;
-height:120px;
-background:#020617;
-color:white;
+.human{
+position:relative;
+width:350px;
+height:350px;
+background:radial-gradient(circle,#164e63,#020617);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.person{
+font-size:150px;
+}
+.floating-card{
+position:absolute;
+right:-30px;
+top:40px;
+background:#0f172a;
+border:1px solid #22d3ee;
+padding:20px;
+border-radius:20px;
+}
+.floating-card span{
+color:#22d3ee;
+}
+.second{
+left:-20px;
+top:230px;
+}
+.features{
+text-align:center;
+padding:60px 20px;
+}
+.cards{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+}
+.cards div{
+background:#0f172a;
+border:1px solid #334155;
+padding:30px;
+border-radius:25px;
+width:180px;
+}
+.cta{
+text-align:center;
+padding:80px;
 }
