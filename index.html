@@ -2,79 +2,63 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>AI Literacy Certification V30</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Literacy Certification</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="hero">
 <nav>
-<div class="logo">▲ AI LITERACY CERTIFICATION</div>
-<div>資格概要　受験　認証　法人向け</div>
+<div class="logo">▲ AI LITERACY<br>CERTIFICATION</div>
+<div class="nav">資格について　受験する　認証・証明　法人向け　ログイン</div>
 </nav>
 
-<div class="hero-inner">
-<div class="copy">
-<h1>AI時代の能力を、<br><span>証明する資格へ。</span></h1>
+<div class="hero-grid">
+<div>
+<h1>AIを理解し、使いこなす力を<br><span>世界基準で証明する。</span></h1>
 <p>
-AI理解力・活用力・検証力・安全性を評価し、
-未来のキャリアと企業の成長につなげる認定資格。
+AI時代に必要な知識・判断力・活用力を評価する、
+次世代AIリテラシー認定資格。
 </p>
-<button onclick="startExam()">受験する</button>
+<button>今すぐ受験を申し込む</button>
+<button class="outline">資格について詳しく見る</button>
+
+<div class="stats">
+<div>12,654人<br><small>受験者</small></div>
+<div>PROFESSIONAL<br><small>認定レベル</small></div>
+<div>VERIFIED<br><small>Digital Credential</small></div>
+</div>
 </div>
 
-<div class="certificate-preview">
-<div class="person">👨‍💼</div>
-<div class="certificate-card">
+<div class="visual">
+<div class="person">AI<br>USER</div>
+<div class="certificate">
 <h3>AI LITERACY</h3>
 <p>PROFESSIONAL</p>
-<strong>89 / 100</strong>
-<hr>
-Certificate No.<br>
-AIL-2026-000001<br>
+<strong>Certificate</strong><br>
+No. AIL-2026-000001<br>
 ✓ VERIFIED
 </div>
 </div>
 </div>
 </header>
 
-<section id="exam" class="section hidden">
-<h2>AI Assessment</h2>
-<div id="chat"></div>
-<textarea id="answer"></textarea><br>
-<button onclick="submitAnswer()">回答送信</button>
-</section>
-
-<section id="result" class="section hidden">
-<h2>Certification Result</h2>
-<div class="result">
-<h3>Professional Level</h3>
-<p>AI Skill Score 89</p>
-<div class="radar">
-<span>理解力 90</span>
-<span>活用力 92</span>
-<span>検証力 86</span>
-<span>安全性 95</span>
-</div>
-<button>PDF Certificate</button>
-<button>Share Badge</button>
+<section>
+<h2>4つの評価領域</h2>
+<div class="cards">
+<div>🧠<br>AI理解力</div>
+<div>⚙️<br>活用力</div>
+<div>🔍<br>検証力</div>
+<div>🔒<br>安全性</div>
 </div>
 </section>
 
-<section class="section">
-<h2>Public Verification</h2>
-<div class="verify">
-VALID ✓<br>
-Certificate No. AIL-2026-000001<br>
-QR Authentication Ready
+<section class="dark">
+<h2>受験から認定まで</h2>
+<div class="flow">
+1. 受験申込 → 2. AIアセスメント → 3. AI評価 → 4. 結果レポート → 5. 認定証発行
 </div>
 </section>
 
-<section class="section enterprise">
-<h2>Enterprise AI Talent Platform</h2>
-<p>採用・研修・組織分析のためのAI人材評価基盤</p>
-</section>
-
-<script src="app.js"></script>
 </body>
 </html>

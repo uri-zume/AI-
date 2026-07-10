@@ -1,9 +1,7 @@
-AI Literacy Certification V30
+AI Literacy Certification V31
 
-Integrated:
-- Premium certification landing page
-- AI assessment flow
-- Result dashboard
-- Certificate preview
-- Verification page concept
-- Enterprise platform concept
+GitHub Pages upload version.
+
+Note:
+The hero person is currently a placeholder block.
+Replace with licensed/generated image asset if desired.
