@@ -3,26 +3,30 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>AIリテラシー認定</title>
+<title>AI Literacy Certification</title>
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <header class="hero">
-<div class="ai">✦</div>
-<h1>AIと共に、未来を創る力を証明する</h1>
-<p>AIを正しく理解し、仕事で活用できる力を認定する次世代AIリテラシー資格。</p>
-<button onclick="start()">無料診断を開始</button>
+<div class="logo">✦ AI Literacy Certification</div>
+<h1>AIを使う力を、社会で証明する。</h1>
+<p>AI時代に必要な「理解力・活用力・判断力」を測定する次世代AI資格。</p>
+<button onclick="startExam()">AIチャット試験を開始</button>
 </header>
 
-<section class="cards">
-<div class="card"><h2>Basic</h2><p>AIの基礎理解と安全な利用</p></div>
-<div class="card"><h2>Professional</h2><p>業務改善・問題解決への活用</p></div>
-<div class="card"><h2>Expert</h2><p>高度なAI活用と戦略設計</p></div>
+<section id="exam" class="panel hidden">
+<h2>AI試験官</h2>
+<div id="chat"></div>
+<input id="answer" placeholder="回答を入力してください">
+<button onclick="submitAnswer()">送信</button>
 </section>
 
-<section class="flow card">
-<h2>認定までの流れ</h2>
-<p>① AI診断 → ② スキル分析 → ③ 認定証発行</p>
+<section id="result" class="panel hidden"></section>
+
+<section class="cards">
+<div class="card"><h3>Basic</h3><p>AI基礎理解</p></div>
+<div class="card"><h3>Professional</h3><p>業務活用力</p></div>
+<div class="card"><h3>Expert</h3><p>AI戦略設計力</p></div>
 </section>
 
 <script src="app.js"></script>
