@@ -1,10 +1,9 @@
-AI Literacy Certification V25
+AI Literacy Certification V30
 
 Integrated:
-- Human-centered top page
-- AI certification branding
-- Trust indicators
-- Skill categories
-- Digital certificate preview
-
-Latest upload only.
+- Premium certification landing page
+- AI assessment flow
+- Result dashboard
+- Certificate preview
+- Verification page concept
+- Enterprise platform concept
