@@ -1,1 +1,18 @@
-body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;background:#020617;color:white;text-align:center}.hero{padding:70px 8%;min-height:750px;background:radial-gradient(circle at 70% 30%,#06b6d455,transparent),#020617}.logo{color:#22d3ee;font-weight:bold;letter-spacing:2px}h1{font-size:clamp(45px,7vw,80px)}h1 span{color:#22d3ee}p{font-size:20px;color:#cbd5e1;line-height:1.8}button,a{padding:15px 30px;border-radius:30px;background:linear-gradient(90deg,#06b6d4,#6366f1);color:white;text-decoration:none;border:0}.visual{margin:60px auto;width:360px;height:360px;background:linear-gradient(135deg,#164e63,#020617);border-radius:30px;position:relative;display:flex;align-items:center;justify-content:center}.ai{font-size:90px;color:#38bdf8}.certificate{position:absolute;right:-40px;top:50px;background:#050505;border:2px solid #d4af37;padding:25px;width:220px}.cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}.cards div{background:#0f172a;padding:30px;border-radius:20px;border:1px solid #164e63}.dark{background:#010817;padding:60px}section{padding:60px}
+body{margin:0;background:#020617;color:#fff;font-family:Arial,sans-serif}
+.bg{position:fixed;inset:0;background:radial-gradient(circle,#123b70,#020617);z-index:-1}
+header{padding:30px 7%}
+nav{display:flex;justify-content:space-between;color:#cbd5e1}
+.logo{color:#38bdf8;font-weight:bold;letter-spacing:2px}
+.hero{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center;margin-top:70px}
+h1{font-size:78px;line-height:1}
+span{color:#22d3ee}
+p{font-size:20px;line-height:1.8;color:#cbd5e1}
+a,button{background:linear-gradient(90deg,#06b6d4,#8b5cf6);padding:15px 30px;border-radius:30px;color:white;border:0;text-decoration:none}
+.showcase{position:relative}
+.showcase>img{width:100%;filter:drop-shadow(0 0 40px #22d3ee)}
+.certificate{position:absolute;right:-20px;top:60px;width:250px;background:#050505;border:2px solid #d4af37;padding:15px}
+.certificate img{width:100%}
+section{text-align:center;padding:70px}
+.cards{display:flex;justify-content:center;gap:20px;flex-wrap:wrap}
+.cards div{background:#0f172a;border:1px solid #164e63;padding:35px;border-radius:20px}
+.dark{background:#010817}

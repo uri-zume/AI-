@@ -1,1 +1,1 @@
-V42 Integrated GitHub Pages version.
+V47 GitHub Pages package
