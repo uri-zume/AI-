@@ -1,287 +1,30 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ja">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="AIを安全かつ効果的に使う実務力を測る、AIリテラシー認定のβ版サイトです。" />
-  <meta name="theme-color" content="#0b1739" />
-  <title>AIリテラシー認定 | 実務で使えるAI力を証明</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>AIリテラシー認定</title>
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <a class="skip-link" href="#main">本文へ移動</a>
+<header class="hero">
+<div class="ai">✦</div>
+<h1>AIと共に、未来を創る力を証明する</h1>
+<p>AIを正しく理解し、仕事で活用できる力を認定する次世代AIリテラシー資格。</p>
+<button onclick="start()">無料診断を開始</button>
+</header>
 
-  <header class="site-header" id="top">
-    <div class="header-inner">
-      <a class="brand" href="#top" aria-label="AIリテラシー認定 トップ">
-        <span class="brand-mark" aria-hidden="true">AI</span>
-        <span class="brand-copy">
-          <strong>AIリテラシー認定</strong>
-          <small>AI Literacy Certification</small>
-        </span>
-      </a>
-      <nav class="header-nav" aria-label="メインナビゲーション">
-        <a href="#levels">認定レベル</a>
-        <a href="#skills">測定領域</a>
-        <a href="#flow">受験の流れ</a>
-        <a href="portal.html">マイページ</a>
-        <a href="admin.html">管理画面</a>
-        <button class="button button-small button-primary" data-start-test>無料診断</button>
-      </nav>
-      <button class="menu-button" aria-label="メニューを開く" aria-expanded="false">☰</button>
-    </div>
-    <div class="mobile-nav" hidden>
-      <a href="#levels">認定レベル</a>
-      <a href="#skills">測定領域</a>
-      <a href="#flow">受験の流れ</a>
-      <a href="portal.html">マイページ</a>
-      <a href="admin.html">管理画面</a>
-      <button class="button button-primary" data-start-test>無料診断を受ける</button>
-    </div>
-  </header>
+<section class="cards">
+<div class="card"><h2>Basic</h2><p>AIの基礎理解と安全な利用</p></div>
+<div class="card"><h2>Professional</h2><p>業務改善・問題解決への活用</p></div>
+<div class="card"><h2>Expert</h2><p>高度なAI活用と戦略設計</p></div>
+</section>
 
-  <main id="main">
-    <section class="hero section-shell">
-      <div class="hero-copy">
-        <div class="eyebrow"><span>β版</span> 就職・実務に活かすAIスキル診断</div>
-        <h1>「AIを使える」を、<br /><em>説明できる実力</em>に。</h1>
-        <p class="hero-lead">
-          生成AIの基礎理解、指示設計、情報検証、セキュリティ、実務応用をシナリオ形式で測定。
-          診断後はレベル判定とスキル分析を確認できます。
-        </p>
-        <div class="hero-actions">
-          <button class="button button-primary button-large" data-start-test>無料診断を始める</button>
-          <a class="button button-ghost button-large" href="#levels">認定内容を見る</a>
-        </div>
-        <div class="hero-meta" aria-label="診断の概要">
-          <div><strong>10問</strong><span>シナリオ形式</span></div>
-          <div><strong>約8分</strong><span>ブラウザで完結</span></div>
-          <div><strong>5領域</strong><span>強みを可視化</span></div>
-        </div>
-      </div>
+<section class="flow card">
+<h2>認定までの流れ</h2>
+<p>① AI診断 → ② スキル分析 → ③ 認定証発行</p>
+</section>
 
-      <div class="hero-visual" aria-label="診断結果イメージ">
-        <div class="dashboard-card">
-          <div class="dashboard-head">
-            <div>
-              <span class="mini-label">AI実務力スコア</span>
-              <strong>84</strong><small>/ 100</small>
-            </div>
-            <span class="status-pill">Professional</span>
-          </div>
-          <div class="score-ring" aria-hidden="true">
-            <span>84</span>
-          </div>
-          <div class="skill-bars">
-            <div><span>指示設計</span><i style="--value: 92%"></i><b>92</b></div>
-            <div><span>情報検証</span><i style="--value: 82%"></i><b>82</b></div>
-            <div><span>情報管理</span><i style="--value: 76%"></i><b>76</b></div>
-          </div>
-          <div class="dashboard-foot">
-            <span>認定番号</span><code>AILC-DEMO-2026</code>
-          </div>
-        </div>
-        <div class="floating-note note-one">✓ 実務シナリオで測定</div>
-        <div class="floating-note note-two">✓ スキル別に分析</div>
-      </div>
-    </section>
-
-    <section class="trust-strip" aria-label="特徴">
-      <div><span>01</span><p><strong>暗記だけでは測らない</strong>状況判断を含む設問</p></div>
-      <div><span>02</span><p><strong>安全性を重視</strong>機密・著作権・検証を評価</p></div>
-      <div><span>03</span><p><strong>結果を可視化</strong>学習課題まで提示</p></div>
-    </section>
-
-    <section class="content-section" id="levels">
-      <div class="section-heading">
-        <span class="eyebrow simple">CERTIFICATION LEVELS</span>
-        <h2>3段階で、現在地と次の目標が分かる</h2>
-        <p>正式試験では、基準点と受験者データを組み合わせた判定方式への拡張を想定しています。</p>
-      </div>
-      <div class="level-grid">
-        <article class="level-card basic">
-          <div class="level-number">01</div>
-          <div class="level-icon">B</div>
-          <span class="level-label">BASIC</span>
-          <h3>ベーシック</h3>
-          <p>AIの特性と注意点を理解し、日常的な作業で安全に利用できる。</p>
-          <ul>
-            <li>生成AIの基礎理解</li>
-            <li>基本的な指示の作成</li>
-            <li>誤情報への注意</li>
-          </ul>
-        </article>
-        <article class="level-card professional featured">
-          <div class="popular-tag">就活で目指す標準</div>
-          <div class="level-number">02</div>
-          <div class="level-icon">P</div>
-          <span class="level-label">PROFESSIONAL</span>
-          <h3>プロフェッショナル</h3>
-          <p>目的に応じてAIを設計・検証し、業務成果につなげられる。</p>
-          <ul>
-            <li>プロンプトの構造化</li>
-            <li>出力の検証と改善</li>
-            <li>業務フローへの統合</li>
-          </ul>
-        </article>
-        <article class="level-card expert">
-          <div class="level-number">03</div>
-          <div class="level-icon">E</div>
-          <span class="level-label">EXPERT</span>
-          <h3>エキスパート</h3>
-          <p>リスクと品質を管理しながら、組織のAI活用を主導できる。</p>
-          <ul>
-            <li>高度な品質管理</li>
-            <li>ガバナンス設計</li>
-            <li>組織導入の意思決定</li>
-          </ul>
-        </article>
-      </div>
-    </section>
-
-    <section class="content-section skills-section" id="skills">
-      <div class="section-heading left">
-        <span class="eyebrow simple">MEASUREMENT</span>
-        <h2>仕事で必要になる5つの力を測定</h2>
-      </div>
-      <div class="skill-grid">
-        <article><span>01</span><h3>基礎理解</h3><p>AIの得意・不得意や、出力が確率的に生成されることを理解する力。</p></article>
-        <article><span>02</span><h3>指示設計</h3><p>目的、条件、資料、出力形式を整理し、再現性の高い依頼を作る力。</p></article>
-        <article><span>03</span><h3>情報検証</h3><p>回答を鵜呑みにせず、根拠・一次情報・計算過程を確認する力。</p></article>
-        <article><span>04</span><h3>情報管理</h3><p>個人情報や社外秘情報を扱う際のリスクを判断し、安全に利用する力。</p></article>
-        <article><span>05</span><h3>実務応用</h3><p>AIを単発の質問で終わらせず、業務工程の改善につなげる力。</p></article>
-      </div>
-    </section>
-
-    <section class="content-section flow-section" id="flow">
-      <div class="section-heading">
-        <span class="eyebrow simple">HOW IT WORKS</span>
-        <h2>診断は3ステップ</h2>
-      </div>
-      <div class="flow-grid">
-        <article><span>1</span><h3>受験者情報を入力</h3><p>氏名と利用目的を入力します。β版ではアカウント登録は不要です。</p></article>
-        <article><span>2</span><h3>10問に回答</h3><p>毎回選ばれるシナリオ問題に、最も適切だと思う対応を選びます。</p></article>
-        <article><span>3</span><h3>結果と認定証を確認</h3><p>総合レベル、領域別スコア、改善提案、印刷用認定証を表示します。</p></article>
-      </div>
-      <div class="cta-panel">
-        <div>
-          <span>まずは現在地を確認</span>
-          <h2>あなたのAI実務力を診断してみませんか。</h2>
-        </div>
-        <button class="button button-light button-large" data-start-test>無料診断を始める</button>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="footer-inner">
-      <div class="brand footer-brand">
-        <span class="brand-mark" aria-hidden="true">AI</span>
-        <span class="brand-copy"><strong>AIリテラシー認定</strong><small>β版プロトタイプ</small></span>
-      </div>
-      <p>本サイトはサービス検証用のβ版です。現時点の判定は公的資格や採用評価を保証するものではありません。</p>
-      <p class="copyright">© 2026 AI Literacy Certification Project</p>
-    </div>
-  </footer>
-
-  <dialog class="exam-dialog" id="examDialog" aria-labelledby="examTitle">
-    <div class="dialog-shell">
-      <button class="dialog-close" id="closeDialog" aria-label="診断を閉じる">×</button>
-
-      <section class="exam-screen active" id="introScreen">
-        <div class="exam-brand"><span>AI</span> AIリテラシー診断</div>
-        <div class="intro-icon">✦</div>
-        <h2 id="examTitle">無料診断を始める</h2>
-        <p>10問のシナリオ問題から、AI活用力を5領域で分析します。</p>
-        <form id="introForm" class="intro-form">
-          <label>
-            <span>氏名または表示名</span>
-            <input id="candidateName" name="candidateName" type="text" maxlength="30" placeholder="例：山田 太郎" required autocomplete="name" />
-          </label>
-          <label>
-            <span>主な利用目的</span>
-            <select id="candidatePurpose" name="candidatePurpose" required>
-              <option value="">選択してください</option>
-              <option>就職活動</option>
-              <option>大学・大学院での学習</option>
-              <option>会社での業務</option>
-              <option>個人事業・副業</option>
-              <option>その他</option>
-            </select>
-          </label>
-          <label class="consent-row">
-            <input type="checkbox" required />
-            <span>β版であり、結果は正式な資格証明ではないことを確認しました。</span>
-          </label>
-          <button class="button button-primary button-full" type="submit">診断を開始する</button>
-        </form>
-      </section>
-
-      <section class="exam-screen" id="questionScreen">
-        <div class="exam-topbar">
-          <div>
-            <span class="question-count" id="questionCount">QUESTION 1 / 10</span>
-            <div class="progress-track"><i id="progressBar"></i></div>
-          </div>
-          <div class="timer" aria-label="残り時間"><span>残り</span><strong id="timerText">08:00</strong></div>
-        </div>
-        <div class="category-badge" id="categoryBadge">基礎理解</div>
-        <h2 class="question-title" id="questionText"></h2>
-        <p class="question-context" id="questionContext"></p>
-        <div class="answer-list" id="answerList"></div>
-        <div class="question-actions">
-          <button class="button button-ghost" id="prevQuestion" type="button">前の問題</button>
-          <button class="button button-primary" id="nextQuestion" type="button" disabled>次の問題</button>
-        </div>
-      </section>
-
-      <section class="exam-screen" id="resultScreen">
-        <div class="result-head">
-          <span class="eyebrow simple">DIAGNOSIS RESULT</span>
-          <h2><span id="resultName"></span>さんの診断結果</h2>
-        </div>
-        <div class="result-summary">
-          <div class="result-score-ring" id="resultRing"><span id="resultScore">0</span><small>/100</small></div>
-          <div class="result-level-copy">
-            <span>判定レベル</span>
-            <h3 id="resultLevel">BASIC</h3>
-            <p id="resultMessage"></p>
-          </div>
-        </div>
-        <div class="result-columns">
-          <div class="result-panel">
-            <h3>領域別スコア</h3>
-            <div class="result-bars" id="resultBars"></div>
-          </div>
-          <div class="result-panel">
-            <h3>次に伸ばすポイント</h3>
-            <div class="recommendation" id="recommendation"></div>
-          </div>
-        </div>
-
-        <div class="certificate" id="certificate">
-          <div class="certificate-border">
-            <span class="certificate-kicker">AI LITERACY DIAGNOSIS</span>
-            <h3>AIリテラシー診断 認定証</h3>
-            <p class="certificate-name" id="certificateName"></p>
-            <p>上記の者は、AIリテラシー診断β版において<br /><strong id="certificateLevel"></strong> 相当の成績を修めたことを証します。</p>
-            <div class="certificate-score"><span id="certificateScore"></span><small> / 100</small></div>
-            <div class="certificate-bottom">
-              <div><span>認定日</span><strong id="certificateDate"></strong></div>
-              <div><span>認定番号</span><strong id="certificateId"></strong></div>
-            </div>
-          </div>
-        </div>
-
-        <div class="result-actions">
-          <button class="button button-primary" id="printCertificate" type="button">認定証を印刷・PDF保存</button>
-          <button class="button button-ghost" id="retryTest" type="button">もう一度受ける</button>
-        </div>
-        <p class="result-note">※ β版の診断結果です。正式運用時は本人確認、監督ログ、決済確認、相対評価をサーバー側で実施します。</p>
-      </section>
-    </div>
-  </dialog>
-
-  <script src="app.js"></script>
+<script src="app.js"></script>
 </body>
 </html>

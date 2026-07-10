@@ -1,4 +1,2 @@
-
-AI Literacy Certification Design v3
-
-Warm AI inspired UI refresh.
+AI Literacy Certification v4
+Warm AI inspired design.
