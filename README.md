@@ -1,6 +1,7 @@
-V33
+AI Literacy Certification V34
 
-Certificate integration version.
+Base:
+- V1 design concept restored
+- Added premium certificate section
 
-Upload all files together.
-To display the real PDF certificate, replace certificate.pdf with the final PDF file.
+Upload this version only to GitHub Pages.
