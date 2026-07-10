@@ -1,19 +1,4 @@
-# AIリテラシー認定 v2
 
-## 実装済みデモ
-- 公開診断、採点、認定証印刷
-- ローカルログイン、受験履歴
-- 問題データベース管理画面
-- 相対評価・絶対評価のハイブリッド計算
-- 本人確認チェック、画面離脱・コピー監督ログ
-- Stripe Checkout接続を想定した決済導線
-- 法人別受験管理
-- 記述式採点補助
-- Supabase用DBスキーマ
+AI Literacy Certification Design v3
 
-## ページ
-- `index.html` 公開サイト
-- `portal.html` 受験者マイページ
-- `admin.html` 運営管理画面
-
-現在のGitHub Pages版は端末内保存のデモです。認証、決済、AI API、正式PDFは秘密鍵と改ざん防止が必要なため、`backend/` の設計を使ってVercel + Supabaseへ移行してください。
+Warm AI inspired UI refresh.
