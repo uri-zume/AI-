@@ -2,32 +2,18 @@
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>AI Literacy Certification</title>
-<link rel="stylesheet" href="styles.css">
+<title>AI Literacy Certification V23</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="hero">
-<div class="logo">✦ AI Literacy Certification</div>
-<h1>AIを使う力を、社会で証明する。</h1>
-<p>AI時代に必要な「理解力・活用力・判断力」を測定する次世代AI資格。</p>
-<button onclick="startExam()">AIチャット試験を開始</button>
-</header>
+<div class="hero">
+<h1>AI Literacy Certification</h1>
+<p>AI能力認証プラットフォーム</p>
+<button onclick="login()">ログイン</button>
+<button onclick="startExam()">受験開始</button>
+</div>
 
-<section id="exam" class="panel hidden">
-<h2>AI試験官</h2>
-<div id="chat"></div>
-<input id="answer" placeholder="回答を入力してください">
-<button onclick="submitAnswer()">送信</button>
-</section>
-
-<section id="result" class="panel hidden"></section>
-
-<section class="cards">
-<div class="card"><h3>Basic</h3><p>AI基礎理解</p></div>
-<div class="card"><h3>Professional</h3><p>業務活用力</p></div>
-<div class="card"><h3>Expert</h3><p>AI戦略設計力</p></div>
-</section>
+<div id="app" class="panel"></div>
 
 <script src="app.js"></script>
 </body>

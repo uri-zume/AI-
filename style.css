@@ -1,0 +1,32 @@
+body{
+background:#020617;
+color:white;
+font-family:sans-serif;
+text-align:center;
+}
+.hero{
+padding:80px 20px;
+background:linear-gradient(135deg,#06b6d4,#8b5cf6);
+}
+.panel{
+margin:30px auto;
+padding:30px;
+max-width:700px;
+background:#0f172a;
+border:1px solid #334155;
+border-radius:20px;
+}
+button{
+padding:15px 25px;
+border:0;
+border-radius:30px;
+background:#06b6d4;
+color:white;
+margin:10px;
+}
+textarea{
+width:80%;
+height:120px;
+background:#020617;
+color:white;
+}
