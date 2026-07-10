@@ -1,7 +1,2 @@
-AI Literacy Certification V34
-
-Base:
-- V1 design concept restored
-- Added premium certificate section
-
-Upload this version only to GitHub Pages.
+V37 Premium Certificate Version
+certificate.pdf is the premium sample certificate linked from the website.
