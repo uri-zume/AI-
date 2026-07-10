@@ -1,1 +1,4 @@
-V39: AI certification premium landing page implementation based on mockup direction.
+V40 AI Literacy Certification
+
+GitHub Pages upload version.
+Replace certificate.pdf with the final certificate PDF and add image assets if needed.
