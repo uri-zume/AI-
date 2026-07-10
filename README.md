@@ -1,2 +1,1 @@
-V37 Premium Certificate Version
-certificate.pdf is the premium sample certificate linked from the website.
+V39: AI certification premium landing page implementation based on mockup direction.
