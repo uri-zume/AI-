@@ -1,51 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
-<title>AI Literacy Certification</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="AIリテラシー認定サービスのデザインサンプル">
+  <title>AI Literacy Certification</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="bg"></div>
-<header>
-<nav>
-<div class="logo">AI LITERACY<br><small>CERTIFICATION</small></div>
-<div>HOME　ABOUT　EXAM　LEVELS　CERTIFICATE　FAQ</div>
-</nav>
+  <header class="site-header">
+    <a class="brand" href="#top"><img src="assets/logo.png" alt="AI Literacy Certification"></a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#about">ABOUT</a>
+      <a href="#skills">SKILLS</a>
+      <a href="#levels">LEVELS</a>
+      <a href="#certificate">CERTIFICATE</a>
+    </nav>
+    <a class="header-cta" href="#journey">受験の流れを見る</a>
+  </header>
 
-<div class="hero">
-<div class="copy">
-<p>AIを理解し、使いこなし、未来を創る力を証明する</p>
-<h1>AI Literacy<br>Certification</h1>
-<h2>AI時代の能力を、<span>未来の信用へ。</span></h2>
-<p>理解力・活用力・検証力・安全性を総合評価する次世代AI認定資格。</p>
-<a>受験を始める</a>
-</div>
+  <main id="top">
+    <section class="hero">
+      <div class="hero-background" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow">AIを理解し、使いこなし、未来を創る力を証明する</p>
+        <h1>AI LITERACY<br>CERTIFICATION</h1>
+        <p class="lead">AI時代のリテラシーを、あなたの強みに。</p>
+        <p class="description">AIに関する理解・活用・検証・安全性の4つの観点から、AIリテラシーを総合的に評価する認定サービスのデザインサンプルです。</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#journey">受験の流れを見る</a>
+          <a class="button button-secondary" href="#certificate">証明書を見る</a>
+        </div>
+      </div>
 
-<div class="showcase">
-<img src="assets/hero-person.svg">
-<div class="certificate">
-<img src="assets/certificate.svg">
-<button>証明書(PDF)</button>
-</div>
-</div>
-</div>
-</header>
+      <div class="hero-media">
+        <img class="hero-person" src="assets/hero-person.png" alt="AIネットワークを表現した人物ビジュアル">
+        <article class="certificate-preview" id="certificate">
+          <span class="sample-badge">SAMPLE</span>
+          <img src="assets/certificate.png" alt="Professional Level 証明書サンプル">
+          <a class="pdf-link" href="certificate-sample.pdf" target="_blank" rel="noopener">証明書PDFを見る</a>
+        </article>
+      </div>
+    </section>
 
-<section>
-<h2>4つの評価領域</h2>
-<div class="cards">
-<div>🧠 理解力</div>
-<div>💻 活用力</div>
-<div>🔍 検証力</div>
-<div>🛡 安全性</div>
-</div>
-</section>
+    <section class="section" id="about">
+      <div class="section-heading">
+        <p>ASSESSMENT AREAS</p>
+        <h2>4つの観点でAIリテラシーを総合評価</h2>
+      </div>
+      <div class="card-grid skills" id="skills">
+        <article class="glass-card"><img src="assets/icon-brain.png" alt=""><h3>理解力</h3><p>AIの仕組みや技術概念を正しく理解する力</p></article>
+        <article class="glass-card"><img src="assets/icon-usage.png" alt=""><h3>活用力</h3><p>AIツールを目的に合わせて効果的に使う力</p></article>
+        <article class="glass-card"><img src="assets/icon-verify.png" alt=""><h3>検証力</h3><p>AIの出力を批判的に評価し検証する力</p></article>
+        <article class="glass-card"><img src="assets/icon-security.png" alt=""><h3>安全性</h3><p>AIを安全かつ倫理的に利用するための知識</p></article>
+      </div>
+    </section>
 
-<section class="dark">
-<h2>受験から証明書取得まで</h2>
-<p>申込 → 試験 → スキルレポート → 合格判定 → Digital Certificate</p>
-</section>
+    <section class="section levels-section" id="levels">
+      <div class="section-heading">
+        <p>CERTIFICATION LEVELS</p>
+        <h2>3つのレベルで成長を可視化</h2>
+      </div>
+      <div class="card-grid levels">
+        <article class="level-card"><img src="assets/icon-basic.png" alt=""><h3>Basic Level</h3><p>AIの基礎を理解し、日常的に活用できるレベル</p></article>
+        <article class="level-card featured"><span class="recommended">RECOMMENDED</span><img src="assets/icon-professional.png" alt=""><h3>Professional Level</h3><p>AIを実務で活用し、価値を生み出せるレベル</p></article>
+        <article class="level-card"><img src="assets/icon-expert.png" alt=""><h3>Expert Level</h3><p>AIを戦略的に活用し、組織を導けるレベル</p></article>
+      </div>
+    </section>
+
+    <section class="journey" id="journey">
+      <div class="section-heading">
+        <p>HOW IT WORKS</p>
+        <h2>受験から証明書取得まで</h2>
+      </div>
+      <ol class="steps">
+        <li><span>1</span><strong>受験申込</strong><small>オンラインで申込み</small></li>
+        <li><span>2</span><strong>試験</strong><small>チャット形式で回答</small></li>
+        <li><span>3</span><strong>スキルレポート</strong><small>評価結果を可視化</small></li>
+        <li><span>4</span><strong>合格判定</strong><small>認定レベルを決定</small></li>
+        <li><span>5</span><strong>証明書発行</strong><small>PDFサンプルを表示</small></li>
+      </ol>
+    </section>
+
+    <section class="final-cta">
+      <div>
+        <p>AIリテラシーを証明して、キャリアの未来を切り拓こう。</p>
+        <a class="button button-primary" href="#top">トップへ戻る</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <img src="assets/logo.png" alt="AI Literacy Certification">
+    <p>Design prototype / sample credential</p>
+  </footer>
 </body>
 </html>
