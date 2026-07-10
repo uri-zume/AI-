@@ -1,11 +1,10 @@
-AI Literacy Certification V49 - Complete GitHub Pages package
+V50 Complete GitHub Pages package
 
-Upload the CONTENTS of this folder to the root of your GitHub repository.
-
-Required root files:
+Upload these items to the ROOT of your GitHub repository:
 - index.html
 - style.css
 - certificate-sample.pdf
-- assets/ (entire folder)
+- assets folder (whole folder)
 
-The visual assets in assets/ were cropped from the approved AI-generated asset sheet and are already referenced by index.html and style.css.
+All approved image assets are included and already referenced by the website.
+This is a design prototype. The certificate is marked SAMPLE.
