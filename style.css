@@ -5,11 +5,11 @@ background:#020617;
 color:#e2e8f0;
 }
 .hero{
-min-height:720px;
-background:
-radial-gradient(circle at 70% 30%,#2563eb55,transparent 30%),
-linear-gradient(135deg,#020617,#0f172a);
 padding:30px 8%;
+min-height:750px;
+background:
+radial-gradient(circle at 75% 30%,#06b6d455,transparent 30%),
+linear-gradient(135deg,#020617,#111827);
 }
 nav{
 display:flex;
@@ -17,92 +17,90 @@ justify-content:space-between;
 align-items:center;
 }
 .logo{
-color:#22d3ee;
 border:1px solid #22d3ee;
-padding:12px 22px;
+padding:12px 20px;
 border-radius:30px;
+color:#22d3ee;
 }
-.links span{
-margin:15px;
-color:#cbd5e1;
-}
-.hero-content{
+.menu{color:#cbd5e1}
+.main{
 display:flex;
-align-items:center;
 justify-content:space-between;
+align-items:center;
 gap:50px;
 margin-top:80px;
 }
-.copy{
-max-width:600px;
-}
+.text{max-width:600px}
 h1{
 font-size:clamp(45px,6vw,75px);
-line-height:1.15;
+line-height:1.2;
 }
-h1 span{
-color:#22d3ee;
-}
+h1 span{color:#22d3ee}
 p{
 font-size:20px;
 line-height:1.8;
 color:#cbd5e1;
 }
 button{
+padding:16px 35px;
+border:0;
+border-radius:30px;
 background:linear-gradient(90deg,#06b6d4,#8b5cf6);
 color:white;
-border:0;
-padding:16px 35px;
-border-radius:30px;
 font-weight:bold;
 }
-.human{
-position:relative;
+.visual{
 width:350px;
 height:350px;
-background:radial-gradient(circle,#164e63,#020617);
 border-radius:50%;
+background:radial-gradient(circle,#164e63,#020617);
 display:flex;
 align-items:center;
 justify-content:center;
+position:relative;
 }
-.person{
-font-size:150px;
-}
-.floating-card{
+.person{font-size:150px}
+.card{
 position:absolute;
-right:-30px;
-top:40px;
 background:#0f172a;
 border:1px solid #22d3ee;
 padding:20px;
 border-radius:20px;
 }
-.floating-card span{
-color:#22d3ee;
+.one{right:-40px;top:50px}
+.two{left:-30px;bottom:50px}
+.trust{
+display:flex;
+gap:15px;
+margin-top:40px;
 }
-.second{
-left:-20px;
-top:230px;
+.trust div{
+background:#0f172a;
+padding:15px;
+border-radius:15px;
 }
-.features{
+.section,.certificate,.cta{
 text-align:center;
 padding:60px 20px;
 }
-.cards{
+.grid{
 display:flex;
 justify-content:center;
 gap:20px;
 flex-wrap:wrap;
 }
-.cards div{
+.grid div{
 background:#0f172a;
 border:1px solid #334155;
 padding:30px;
 border-radius:25px;
 width:180px;
 }
-.cta{
-text-align:center;
-padding:80px;
+.cert{
+max-width:500px;
+margin:auto;
+padding:40px;
+border:2px solid #fbbf24;
+background:#0f172a;
+border-radius:20px;
 }
